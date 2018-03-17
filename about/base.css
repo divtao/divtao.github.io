@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background:url(../img/bg.jpg) repeat;
+	font-family: 'Microsoft Yahei';
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #333;
+}
+/*index*/
+.index-head{
+	height: 150px;
+}
+.index-desc{
+	margin: 0 auto;
+	max-width: 800px;
+	min-width: 320px;
+}
+.index-desc .index-copyright{
+	font-size: 12px;
+	color: #81817c;
+	text-align: right;
+	margin-top:10px;
+}
+.index-desc img{
+	max-width: 100%;
+}
+.index-desc .index-copyright a{
+	color: #777;
+	margin-left:5px; 
+}
